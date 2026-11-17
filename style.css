@@ -53,3 +53,66 @@
     font-weight: bold;
 }
 
+
+/* Header */
+.header {
+    background-color: white;
+    padding: 20px 40px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+/* Header top row */
+.header-top,
+.header-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Search */
+.search {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.search input {
+    width: 400px;
+    border: none;
+    background-color: #e2e8f0;
+    border-radius: 20px;
+    padding: 10px 15px;
+}
+
+/* User information */
+.user-info {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-weight: bold;
+}
+
+/* Greeting */
+.greeting h2 {
+    font-size: 22px;
+}
+
+/* Action buttons */
+.header-actions {
+    display: flex;
+    gap: 20px;
+}
+
+.header-actions button {
+    background-color: #1992d4;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 25px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
