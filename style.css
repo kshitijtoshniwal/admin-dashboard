@@ -1,0 +1,55 @@
+
+/* Reset browser defaults */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Main dashboard layout */
+.container {
+    display: grid;
+    grid-template-columns: 250px 1fr;
+    min-height: 100vh;
+}
+
+/* Layout of the page content */
+.main-content {
+    display: grid;
+    grid-template-rows: auto 1fr;
+}
+
+
+/* Sidebar */
+.sidebar {
+    background-color: #1992d4;
+    color: white;
+    padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+/* Dashboard branding */
+.dashboard-logo h1 {
+    font-size: 24px;
+}
+
+/* Navigation lists */
+.sidebar ul {
+    list-style: none;
+
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Navigation links */
+.sidebar a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
