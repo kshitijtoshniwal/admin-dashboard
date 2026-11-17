@@ -142,3 +142,92 @@
     color: #636363;
     font-size: 14px;
 }
+
+/* Announcements panel */
+.announcement-card {
+    background-color: white;
+    padding: 25px;
+    border-radius: 8px;
+}
+
+/* Individual announcements */
+.announcement {
+    padding: 15px 0;
+    border-bottom: 1px solid #d2d2d2;
+}
+
+/* Remove the border from the last announcement */
+.announcement:last-child {
+    border-bottom: none;
+}
+
+/* Announcement headings */
+.announcement h3 {
+    font-size: 15px;
+    margin-bottom: 6px;
+}
+
+/* Announcement descriptions */
+.announcement p {
+    color: #636363;
+    font-size: 13px;
+}
+
+/* Trending panel */
+.trending-card {
+    background-color: white;
+    padding: 25px;
+    border-radius: 8px;
+}
+
+/* Individual trending users */
+.trending-user {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 12px 0;
+}
+
+/* User avatars */
+.avatar {
+    width: 40px;
+    height: 40px;
+    background-color: #e2e8f0;
+    border-radius: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Trending usernames */
+.trending-user h3 {
+    font-size: 14px;
+}
+
+/* Trending descriptions */
+.trending-user p {
+    color: #636363;
+    font-size: 12px;
+}
+
+/* Main dashboard content */
+.main {
+    background-color: #e2e8f0;
+    padding: 25px;
+
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 25px;
+}
+
+/* Projects occupy both rows */
+.projects {
+    grid-row: span 2;
+}
+
+/* Main section headings */
+.main h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
