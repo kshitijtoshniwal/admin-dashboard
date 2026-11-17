@@ -6,6 +6,11 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: Arial, sans-serif;
+    color: #1f2937;
+}
+
 /* Main dashboard layout */
 .container {
     display: grid;
@@ -230,4 +235,26 @@
 .main h2 {
     font-size: 20px;
     margin-bottom: 15px;
+}
+
+/* Card shadows */
+.project-card,
+.announcement-card,
+.trending-card {
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* Responsive layout */
+@media (max-width: 800px) {
+    .container {
+        grid-template-columns: 1fr;
+    }
+
+    .main {
+        grid-template-columns: 1fr;
+    }
+
+    .projects {
+        grid-row: auto;
+    }
 }
